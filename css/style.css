@@ -1,0 +1,25 @@
+html, body {
+    background: linear-gradient(313deg, #d102ff, #5c00c4);
+    background-size: 300%;
+}
+
+.vertical-center {
+    height:100%;
+    width:100%;
+  
+    text-align: center;  /* align the inline(-block) elements horizontally */
+  }
+  
+  .vertical-center:before {    
+    display: inline-block;
+    vertical-align: middle;    /* vertical alignment of the inline element */
+    height: 100%;
+  }
+  
+  .vertical-center > .container {
+    max-width: 100%;
+  
+    display: inline-block;
+    vertical-align: middle;  /* vertical alignment of the inline element */
+    /* reset the font property */
+  }
